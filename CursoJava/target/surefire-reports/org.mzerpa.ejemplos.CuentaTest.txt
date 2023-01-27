@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: org.mzerpa.ejemplos.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 59, Failures: 5, Errors: 0, Skipped: 6, Time elapsed: 6.23 s <<< FAILURE! - in org.mzerpa.ejemplos.CuentaTest
+testDebitoCuentaSource1{String}[7]  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:361)
+
+testDebitoCuentaSource1{String, String, String, String}[1]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:352)
+
+testDebitoCuentaSource1{String, String, String, String}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:352)
+
+testDebitoCuentaSource1{String, String, String, String}[5]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:352)
+
+testDebitoCuentaSource1{String, String, String, String}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:353)
+

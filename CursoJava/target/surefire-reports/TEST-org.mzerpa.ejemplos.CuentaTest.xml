@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.mzerpa.ejemplos.CuentaTest" time="6.23" tests="59" errors="0" skipped="6" failures="5">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Margarita Zerpa\Documents\CursoJava\CursoJava\target\test-classes;C:\Users\Margarita Zerpa\Documents\CursoJava\CursoJava\target\classes;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.3\junit-jupiter-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.3\junit-jupiter-api-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Margarita Zerpa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\platform\junit-platform-commons\1.6.3\junit-platform-commons-1.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.3\junit-jupiter-params-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.3\junit-jupiter-engine-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\platform\junit-platform-engine\1.6.3\junit-platform-engine-1.6.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\MARGAR~1\AppData\Local\Temp\surefire4894100330914584509\surefirebooter8339178186257689880.jar C:\Users\Margarita Zerpa\AppData\Local\Temp\surefire4894100330914584509 2023-01-25T11-45-43_882-jvmRun1 surefire15187169269658345748tmp surefire_014938960146309298517tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Margarita Zerpa\Documents\CursoJava\CursoJava\target\test-classes;C:\Users\Margarita Zerpa\Documents\CursoJava\CursoJava\target\classes;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.3\junit-jupiter-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.3\junit-jupiter-api-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Margarita Zerpa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\platform\junit-platform-commons\1.6.3\junit-platform-commons-1.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.3\junit-jupiter-params-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.3\junit-jupiter-engine-5.6.3.jar;C:\Users\Margarita Zerpa\.m2\repository\org\junit\platform\junit-platform-engine\1.6.3\junit-platform-engine-1.6.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Margarita Zerpa"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Margarita Zerpa\Documents\CursoJava\CursoJava"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MARGAR~1\AppData\Local\Temp\surefire4894100330914584509\surefirebooter8339178186257689880.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="Margarita Zerpa"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Margarita Zerpa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MARGAR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\Margarita Zerpa\Documents\CursoJava\CursoJava"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17.0.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\Users\Margarita Zerpa\Documents\CursoJava\apache-maven-3.8.7\bin;C:\Users\Margarita Zerpa\AppData\Roaming\nvm;C:\Program Files\nodejs;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Margarita Zerpa\AppData\Local\Microsoft\WindowsApps;C:\Users\Margarita Zerpa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Margarita Zerpa\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Margarita Zerpa\AppData\Local\Programs\Fiddler;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSaldoCuentaDev" classname="org.mzerpa.ejemplos.CuentaTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at org.mzerpa.ejemplos.CuentaTest.testSaldoCuentaDev(CuentaTest.java:284)
+</skipped>
+    <system-out><![CDATA[inicializando el test
+INICIANDO EL METODO.
+fializando el método de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="DineroInsuficienteExceptionCuenta" classname="org.mzerpa.ejemplos.CuentaTest" time="0.003"/>
+  <testcase name="testRelacionBancoCuentas1" classname="org.mzerpa.ejemplos.CuentaTest" time="0.006"/>
+  <testcase name="testSaldoCuentaDev2" classname="org.mzerpa.ejemplos.CuentaTest" time="0.001"/>
+  <testcase name="testRelacionBancoCuentas" classname="org.mzerpa.ejemplos.CuentaTest" time="0">
+    <skipped message="void org.mzerpa.ejemplos.CuentaTest.testRelacionBancoCuentas() is @Disabled"/>
+  </testcase>
+  <testcase name="pruebaTimeout2" classname="org.mzerpa.ejemplos.CuentaTest$pruebaSTimeout" time="0.915"/>
+  <testcase name="testTimeOutAssertion" classname="org.mzerpa.ejemplos.CuentaTest$pruebaSTimeout" time="4.014"/>
+  <testcase name="pruebaTimeout" classname="org.mzerpa.ejemplos.CuentaTest$pruebaSTimeout" time="1.009"/>
+  <testcase name="TTestDebitoCuentaRepeat{RepetitionInfo}[1]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.002"/>
+  <testcase name="TTestDebitoCuentaRepeat{RepetitionInfo}[2]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="TTestDebitoCuentaRepeat{RepetitionInfo}[3]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.004"/>
+  <testcase name="TTestDebitoCuentaRepeat{RepetitionInfo}[4]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0"/>
+  <testcase name="TTestDebitoCuentaRepeat{RepetitionInfo}[5]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource1{String}[1]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.018"/>
+  <testcase name="testDebitoCuentaSource1{String}[2]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource1{String}[3]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource1{String}[4]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.002"/>
+  <testcase name="testDebitoCuentaSource1{String}[5]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0"/>
+  <testcase name="testDebitoCuentaSource1{String}[6]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource1{String}[7]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.007">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:361)
+]]></failure>
+    <system-out><![CDATA[INICIANDO EL METODO.
+fializando el método de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaSource1{String, String, String, String}[1]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.004">
+    <failure message="expected: &lt;John&gt; but was: &lt;Andres&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:352)
+]]></failure>
+    <system-out><![CDATA[INICIANDO EL METODO.
+200->100
+fializando el método de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaSource1{String, String, String, String}[2]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource1{String, String, String, String}[3]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.003">
+    <failure message="expected: &lt;maria&gt; but was: &lt;Maria&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <maria> but was: <Maria>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:352)
+]]></failure>
+    <system-out><![CDATA[INICIANDO EL METODO.
+300->300
+fializando el método de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaSource1{String, String, String, String}[4]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.002"/>
+  <testcase name="testDebitoCuentaSource1{String, String, String, String}[5]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;Lucas&gt; but was: &lt;Luca&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:352)
+]]></failure>
+    <system-out><![CDATA[INICIANDO EL METODO.
+750->700
+fializando el método de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaSource1{String, String, String, String}[6]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest.testDebitoCuentaSource1(CuentaTest.java:353)
+]]></failure>
+    <system-out><![CDATA[INICIANDO EL METODO.
+1000.12345->1000.12345
+fializando el método de prueba
+]]></system-out>
+  </testcase>
+  <testcase name="testDebitoCuentaSource3{String}[1]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource3{String}[2]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource3{String}[3]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource3{String}[4]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource3{String}[5]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource3{String}[6]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String}[1]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String}[2]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String}[3]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.002"/>
+  <testcase name="testDebitoCuentaSource{String}[4]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String}[5]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String}[6]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String, String}[1]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.003"/>
+  <testcase name="testDebitoCuentaSource{String, String}[2]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String, String}[3]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.002"/>
+  <testcase name="testDebitoCuentaSource{String, String}[4]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String, String}[5]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testDebitoCuentaSource{String, String}[6]" classname="org.mzerpa.ejemplos.CuentaTest$pruebasRepetitivasParametrizadasTest" time="0.001"/>
+  <testcase name="testJavaHome" classname="org.mzerpa.ejemplos.CuentaTest$VariableAmbienteTest" time="0">
+    <skipped message="Environment variable [JAVA:HOME] does not exist"/>
+  </testcase>
+  <testcase name="imprimirVariableAmbientes" classname="org.mzerpa.ejemplos.CuentaTest$VariableAmbienteTest" time="0.026"/>
+  <testcase name="testJavaVersion" classname="org.mzerpa.ejemplos.CuentaTest$SistemPropertiesTest" time="0"/>
+  <testcase name="imprimirSystemProperties" classname="org.mzerpa.ejemplos.CuentaTest$SistemPropertiesTest" time="0.021"/>
+  <testcase name="solojdk17" classname="org.mzerpa.ejemplos.CuentaTest$JavaVersionTest" time="0"/>
+  <testcase name="solojdk8" classname="org.mzerpa.ejemplos.CuentaTest$JavaVersionTest" time="0">
+    <skipped message="Disabled on JRE version: 17.0.5"/>
+  </testcase>
+  <testcase name="testSoloLinuxMac" classname="org.mzerpa.ejemplos.CuentaTest$SistemaOperativoTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testSoloWindows" classname="org.mzerpa.ejemplos.CuentaTest$SistemaOperativoTest" time="0.001"/>
+  <testcase name="sinNoWindows" classname="org.mzerpa.ejemplos.CuentaTest$SistemaOperativoTest" time="0">
+    <skipped message="Disabled on operating system: Windows 10"/>
+  </testcase>
+  <testcase name="testCreditoCuenta" classname="org.mzerpa.ejemplos.CuentaTest$CuentaOperacionesTest" time="0.001"/>
+  <testcase name="testDebitoCuenta" classname="org.mzerpa.ejemplos.CuentaTest$CuentaOperacionesTest" time="0"/>
+  <testcase name="testTransferirDineroCuentas" classname="org.mzerpa.ejemplos.CuentaTest$CuentaOperacionesTest" time="0.001"/>
+  <testcase name="testSaldoCuenta" classname="org.mzerpa.ejemplos.CuentaTest$CuentaTestNombreSaldo" time="0"/>
+  <testcase name="testReferenciaCuenta" classname="org.mzerpa.ejemplos.CuentaTest$CuentaTestNombreSaldo" time="0.001"/>
+  <testcase name="testNombreCuenta" classname="org.mzerpa.ejemplos.CuentaTest$CuentaTestNombreSaldo" time="0"/>
+</testsuite>
