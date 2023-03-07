@@ -1,11 +1,17 @@
 package org.mzerpa.test.models;
 
+import jakarta.persistence.*;
+
 import java.math.BigDecimal;
 import java.util.Objects;
-
+@Entity
+@Table(name="bancos")
 public class Banco {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre;
+    @Column(name="total_tranferencias")
     private int totalTransferencia;
 
     public Banco() {

@@ -44,7 +44,7 @@ class SpringbootTestApplicationTests {
 	void contextLoads() {
 		when(cuentaRepository.findById(1L)).thenReturn(crearCuenta001());
 		when(cuentaRepository.findById(2L)).thenReturn(crearCuenta002());
-		when(bancoRepository.finById(1L)).thenReturn(crearBanco());
+		when(bancoRepository.findById(1L)).thenReturn(crearBanco());
 
 		BigDecimal saldoOrigen = service.revisarSaldo(1L);
 		BigDecimal saldoDestino= service.revisarSaldo(2L);
@@ -64,10 +64,10 @@ class SpringbootTestApplicationTests {
 		//verificamos cuantas veces se ejecutan los mock
 		verify(cuentaRepository,times(3)).findById(1L);
 		verify(cuentaRepository,times(3)).findById(2L);
-		verify(cuentaRepository,times(2)).update(any(Cuenta.class));
+		verify(cuentaRepository,times(2)).save(any(Cuenta.class));
 
-		verify(bancoRepository,times(2)).finById(1L);
-		verify(bancoRepository).update(any(Banco.class));
+		verify(bancoRepository,times(2)).findById(1L);
+		verify(bancoRepository).save(any(Banco.class));
 
 		verify(cuentaRepository,times(6)).findById(anyLong());
 		verify(cuentaRepository,never()).findAll();
@@ -77,7 +77,7 @@ class SpringbootTestApplicationTests {
 	void contextLoads2() {
 		when(cuentaRepository.findById(1L)).thenReturn(crearCuenta001());
 		when(cuentaRepository.findById(2L)).thenReturn(crearCuenta002());
-		when(bancoRepository.finById(1L)).thenReturn(crearBanco());
+		when(bancoRepository.findById(1L)).thenReturn(crearBanco());
 
 		BigDecimal saldoOrigen = service.revisarSaldo(1L);
 		BigDecimal saldoDestino= service.revisarSaldo(2L);
@@ -100,10 +100,10 @@ class SpringbootTestApplicationTests {
 		//verificamos cuantas veces se ejecutan los mock
 		verify(cuentaRepository,times(3)).findById(1L);
 		verify(cuentaRepository,times(2)).findById(2L);
-		verify(cuentaRepository,never()).update(any(Cuenta.class));
+		verify(cuentaRepository,never()).save(any(Cuenta.class));
 
-		verify(bancoRepository,times(1)).finById(1L);
-		verify(bancoRepository,never()).update(any(Banco.class));
+		verify(bancoRepository,times(1)).findById(1L);
+		verify(bancoRepository,never()).save(any(Banco.class));
 
 		verify(cuentaRepository,times(5)).findById(anyLong());
 		verify(cuentaRepository,never()).findAll();

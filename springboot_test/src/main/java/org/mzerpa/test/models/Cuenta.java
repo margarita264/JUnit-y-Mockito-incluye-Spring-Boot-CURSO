@@ -1,11 +1,15 @@
 package org.mzerpa.test.models;
 
+import jakarta.persistence.*;//
 import org.mzerpa.test.exceptions.DineroInsuficienteException;
 
 import java.math.BigDecimal;
 import java.util.Objects;
-
+@Entity
+@Table(name="cuentas")// si no se pone el nombre toma por defecto el de la clase
 public class Cuenta {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String persona;
     private BigDecimal saldo;
